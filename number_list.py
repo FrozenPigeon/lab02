@@ -30,12 +30,12 @@ def find_descending(numbers):
 
 def second_smallest(numbers):
     #TODO: find the second smallest
-    print (sorted(numbers)[1])
+    print (sorted(set(numbers))[1])
     pass
 
 def kth_smallest(numbers, k):
     #TODO: find the kth smallest number in the list
-    print (sorted(numbers)[k-1])
+    print (sorted(set(numbers))[k-1])
     pass
 
 if __name__ == '__main__':
